@@ -1,0 +1,28 @@
+.map {
+    padding-top: 0;
+    background: #fff;
+    @media screen and (min-width: 767px) {
+        padding-top: 34px;
+    }
+
+    // .map__title
+    &__title {
+        padding-top: 46px;
+        padding-bottom: 32px;
+        @media screen and (min-width: 767px) {
+            fpadding-top: 80px;
+            padding-bottom: 59px;
+        }
+    }
+
+    // .map__image
+    &__image {
+        min-width: 278px;
+        max-width: 849px;
+        margin: 0 auto;
+    }
+    // .map__image-img
+    &__image-img {
+        width: 100%;
+    }
+}

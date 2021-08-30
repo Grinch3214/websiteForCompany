@@ -1,0 +1,33 @@
+.contacts {
+    padding-top: 19px;
+    padding-bottom: 15px;
+    @media screen and (min-width: 767px) {
+        padding-top: 27px;
+        padding-bottom: 19px;
+    }
+    @media screen and (min-width: 1110px) {
+        padding-bottom: 13px;
+    }
+    // .contacts__body
+    &__body {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        color: $secondary-color;
+        font-weight: 400;
+        @media screen and (min-width: 767px) {
+            justify-content: space-between;
+        }
+    }
+
+    // .contacts__body-text
+    &__body-text {
+        margin: 0 15px 6px 15px;
+        @media screen and (min-width: 767px) {
+            margin: 0 0 6px 0;
+        }
+        a {
+            color: inherit;
+        }
+    }
+}

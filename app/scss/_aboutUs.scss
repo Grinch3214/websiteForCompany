@@ -1,0 +1,38 @@
+.about {
+    background-color: #E7F4FF;
+    @media screen and (min-width: 1110px) {
+        background-color: unset;
+    }
+    // .about__box
+    &__box {
+        background-color: #E7F4FF;
+        text-align: center;
+        padding: 46px 5px 52px 5px;
+        @media screen and (min-width: 767px) {
+            padding: 71px 0 75px 0;
+        }
+        @media screen and (min-width: 1110px) {
+            position: relative;
+            top: -86px;
+        }
+    }
+    // .about__title
+    &__title {
+        margin-bottom: 25px;
+    }
+    // .about__text
+    &__text {
+        font-weight: 400;
+        line-height: 24px;
+        @media screen and (min-width: 424px) {
+            font-size: 18px;
+        }
+        @media screen and (min-width: 767px) {
+            line-height: 30px;
+        }
+        @media screen and (min-width: 1110px) {
+            max-width: 920px;
+            margin: 0 auto;
+        }
+    }
+}
